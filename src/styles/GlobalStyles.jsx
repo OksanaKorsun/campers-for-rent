@@ -1,9 +1,9 @@
 import { css } from '@emotion/react';
 import emotionNormalize from 'emotion-normalize';
 
-import RobotoRegular from '../assets/fonts/Roboto-Regular.ttf';
-import RobotoMedium from '../assets/fonts/Roboto-Medium.ttf';
-import RobotoBold from '../assets/fonts/Roboto-Bold.ttf';
+import InterRegular from '../assets/fonts/Inter-Regular.ttf';
+import InterMedium from '../assets/fonts/Inter-Medium.ttf';
+import InterBold from '../assets/fonts/Inter-Bold.ttf';
 
 export const GlobalStyles = css`
   ${emotionNormalize}
@@ -62,19 +62,19 @@ export const GlobalStyles = css`
   @font-face {
     font-family: 'Roboto';
     font-weight: 400;
-    src: url(${RobotoRegular}) format('truetype');
+    src: url(${InterRegular}) format('truetype');
   }
 
   @font-face {
     font-family: 'Roboto';
     font-weight: 500;
-    src: url(${RobotoMedium}) format('truetype');
+    src: url(${InterMedium}) format('truetype');
   }
 
   @font-face {
     font-family: 'Roboto';
     font-weight: 700;
-    src: url(${RobotoBold}) format('truetype');
+    src: url(${InterBold}) format('truetype');
   }
 
   /* ========================= Common styles ========================= */
