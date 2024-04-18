@@ -9,10 +9,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <Global styles={GlobalStyles} />
-      <BrowserRouter >
+      <BrowserRouter basename="/campers-for-rent">
         <App />
       </BrowserRouter>
     </ThemeProvider>
   </React.StrictMode>
 );
-// basename="/campers-for-rent"
+
+// Experience the Freedom of the Open Road with Our  Camper Rentals
