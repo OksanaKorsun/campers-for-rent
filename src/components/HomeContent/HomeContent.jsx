@@ -1,4 +1,4 @@
-import { Title, Wrapper, List, Item, Button} from './HomeContent.styled';
+import { Title, Wrapper, List, Item, Button } from './HomeContent.styled';
 import { useNavigate } from 'react-router-dom';
 export const HomeContent = () => {
   const navigate = useNavigate();

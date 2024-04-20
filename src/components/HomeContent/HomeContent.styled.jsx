@@ -1,5 +1,4 @@
 import styled from '@emotion/styled';
-// import { HiChevronDoubleRight } from 'react-icons/hi';
 export const Wrapper = styled.div`
   display: inline-block;
   margin: 0;
@@ -40,6 +39,7 @@ export const Item = styled.li`
 `;
 export const Button = styled.button`
   display: flex;
+  border: none;
   align-items: center;
   justify-content: center;
   width: 166px;
@@ -48,21 +48,10 @@ export const Button = styled.button`
   line-height: 24px;
   font-weight: 500;
   border-radius: 200px;
-  /* padding: 16px 40px; */
   color: ${({ theme }) => theme.color.whiteColor};
   background-color: ${({ theme }) => theme.color.mainButton};
   transition: background-color ${({ theme }) => theme.transition.main};
-  &:hover,
-  &:focus {
+  &:hover {
     background-color: ${({ theme }) => theme.color.hoverButton};
   }
 `;
-// export const StyledIcon = styled(HiChevronDoubleRight)`
-//   width: 28px;
-//   height: 28px;
-//   transition: color ${({ theme }) => theme.transition.main};
-//   &:hover,
-//   &:focus {
-//     color: ${({ theme }) => theme.color.mainButton};
-//   }
-// `;

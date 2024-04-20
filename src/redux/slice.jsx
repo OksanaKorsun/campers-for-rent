@@ -48,6 +48,14 @@ const campersSlice = createSlice({
         state.isLoading = false;
         state.error = null;
         state.campers = [...state.campers, ...action.payload];
+        // if (action.payload.page === 1) {
+        //   // Якщо це перша сторінка, перезаписуємо список кемперів
+        //   state.campers = action.payload;
+        
+        // } else {
+        //   // Якщо це не перша сторінка, додаємо нові кемпери до існуючого списку
+        //   state.campers = [...state.campers, ...action.payload];
+        // }
       })
       .addCase(fetchCampers.rejected, handleRejected)
       .addCase(filterCampers.pending, handlePending)

@@ -109,7 +109,7 @@ export const GlobalStyles = css`
 
   /* Firefox */
   * {
-    scrollbar-color: #9ebbff rgba(239, 237, 232, 0.1);
+    scrollbar-color: #475467 rgba(239, 237, 232, 0.1);
   }
 
 `;

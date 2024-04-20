@@ -10,7 +10,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { Loader } from './components/Loader/Loader';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <Provider store={store}>
       <ThemeProvider theme={theme}>
         <Global styles={GlobalStyles} />
@@ -22,5 +22,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </PersistGate>
       </ThemeProvider>
     </Provider>
-  </React.StrictMode>
+  // </React.StrictMode>
 );
