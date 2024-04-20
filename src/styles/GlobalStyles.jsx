@@ -60,19 +60,19 @@ export const GlobalStyles = css`
 
   /* ========================= Fonts ========================= */
   @font-face {
-    font-family: 'Roboto';
+    font-family: 'Inter';
     font-weight: 400;
     src: url(${InterRegular}) format('truetype');
   }
 
   @font-face {
-    font-family: 'Roboto';
+    font-family: 'Inter';
     font-weight: 500;
     src: url(${InterMedium}) format('truetype');
   }
 
   @font-face {
-    font-family: 'Roboto';
+    font-family: 'Inter';
     font-weight: 700;
     src: url(${InterBold}) format('truetype');
   }
@@ -87,7 +87,7 @@ export const GlobalStyles = css`
   }
 
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     background-color: #fff;
   }

@@ -1,6 +1,12 @@
+import { BgHome, HomeWraper } from './HomePage.styled';
+import { HomeContent } from '../../components/HomeContent/HomeContent';
+
 const HomePage = () => {
   return (
-    <div>Home Page</div>
+    <HomeWraper>
+      <HomeContent/>
+      <BgHome />
+    </HomeWraper>
   );
 };
 

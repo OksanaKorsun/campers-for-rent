@@ -1,6 +1,7 @@
 export const theme = {
   color: {
     mainColor: '#101828',
+    whiteColor: '#FFFFFF',
     textColor: '#475467',
     mainButton: '#E44848',
     ratingColor: '#FFC531',
