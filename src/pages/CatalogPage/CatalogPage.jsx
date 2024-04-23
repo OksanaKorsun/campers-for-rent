@@ -10,6 +10,7 @@ import {
   selectIsLoading,
 } from '../../redux/selectors';
 import { LoadMoreButton } from './CatalogPage.styled';
+import { Filter } from '../../components/Filters/Filter';
 const CatalogPage = () => {
   const limit = 4;
   const dispatch = useDispatch();
@@ -50,6 +51,7 @@ const CatalogPage = () => {
 
   return (
     <div>
+      <Filter campers={campers}/>
       <div>
         {error && <div>Error: {error}</div>}
         {isLoading ? <Loader /> : <CardList campers={campers} />}

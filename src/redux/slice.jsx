@@ -12,7 +12,7 @@ const initialState = {
   campers: [],
   favorite: [],
   filters: {
-    location: [],
+    location: "",
     equipment: {},
     vehicleType: '',
   },
