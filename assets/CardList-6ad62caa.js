@@ -1,4 +1,4 @@
-import{d as r,n as i,a as h,b as g,j as e,s as o,e as f,g as u}from"./index-e7019bf3.js";const K=t=>t.campers.error,M=t=>t.campers.isLoading,G=t=>t.campers.campers,a=t=>t.campers.filters,b=t=>t.campers.favorite;r([a],t=>t.location);r([a],t=>t.equipment);r([a],t=>t.vehicleType);const j=i.li`
+import{i as r,n as i,a as h,b as g,j as e,e as o,k as f,l as u}from"./index-6808dfbd.js";const K=t=>t.campers.error,M=t=>t.campers.isLoading,G=t=>t.campers.campers,a=t=>t.campers.filters,b=t=>t.campers.favorite;r([a],t=>t.location);r([a],t=>t.equipment);r([a],t=>t.vehicleType);const j=i.li`
   border: 1px solid rgba(16, 24, 40, 0.2);
   border-radius: 20px;
   padding: 24px;

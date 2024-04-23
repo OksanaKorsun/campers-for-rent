@@ -1,4 +1,4 @@
-import{n as t,u as s,j as o}from"./index-e7019bf3.js";const l="/campers-for-rent/assets/camper_378-adaef73b.png",c=t.div`
+import{n as t,u as s,j as o}from"./index-6808dfbd.js";const l="/campers-for-rent/assets/camper_378-adaef73b.png",c=t.div`
 display: flex;
 gap: 35px;
 align-items: center;
